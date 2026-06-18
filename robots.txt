@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://osiasnalaunan68-star.github.io/osias-personal-portfolio/sitemap.xml
