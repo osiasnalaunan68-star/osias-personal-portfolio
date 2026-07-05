@@ -237,6 +237,7 @@
     }
 
     .hero-name {
+  white-space: nowrap;
       font-family: var(--font-mono);
       font-size: clamp(2rem, 6vw, 3.8rem);
       font-weight: 700;
@@ -685,6 +686,9 @@
     }
 
     @media (max-width: 480px) {
+  .hero-name {
+    font-size: clamp(1.5rem, 8vw, 2rem);
+  }
       nav { padding: .75rem .85rem; }
       .nav-links { gap: .55rem; }
       .nav-links a { font-size: .65rem; letter-spacing: 0; }
@@ -718,9 +722,6 @@
   <!-- ─── HERO ─────────────────────────────────────────────────────────── -->
   <section id="hero">
     <div class="hero-inner">
-      <div class="hero-avatar">
-        <img src="https://ui-avatars.com/api/?name=Osias+Nalaunan&background=111827&color=00D4FF&bold=true&size=256" alt="Osias A. Nalaunan III" />
-      </div>
 
       <div class="hero-badge">AVAILABLE FOR COLLABORATION</div>
 
